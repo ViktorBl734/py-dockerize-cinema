@@ -11,7 +11,7 @@ RUN mkdir -p /files/media
 
 RUN adduser \
     --disabled-password \
-    --no create home \
+    --no-create-home \
     my_user
 
 RUN chown -R my_user /files/media
